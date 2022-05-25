@@ -30,8 +30,6 @@ def get_shop_list_by_dishes(dishes, recipe_book, person_count=1):
         for i in range(len(item)):
             tmp1.append(item[i])
     result = {}
-    pprint(tmp1)
-    print()
     for item in tmp1:
         tmp2 = dict()
         tmp2['measure'] = item['measure']
