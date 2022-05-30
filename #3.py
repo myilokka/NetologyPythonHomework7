@@ -27,7 +27,7 @@ def sort_files(result):
 
 
 def write_files(lead_list):
-    result_file = open('result#3.txt', 'w+')
+    result_file = open('result#3.txt', 'w+', encoding = 'utf-8')
     lead_list = sort_files(lead_list)
     for i in range(len(lead_list)):
         result_file.write(lead_list[i][-2])
